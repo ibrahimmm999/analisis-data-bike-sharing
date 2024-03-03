@@ -7,8 +7,8 @@ st. set_page_config(layout="wide")
 st.title('Analisis Data Bike Sharing')
 st.write('oleh Imam Rusydi Ibrahim')
 
-df_1 = pd.read_csv("total_penyewaan_per_musim.csv")
-df_2 = pd.read_csv("penyewaan_tiap_jam_per_musim.csv")
+df_1 = pd.read_csv("dashboard/total_penyewaan_per_musim.csv")
+df_2 = pd.read_csv("dashboard/penyewaan_tiap_jam_per_musim.csv")
 
 
 tab1, tab2, tab3 = st.tabs(["Analisis 1", "Analisis 2", "Hasil"])
